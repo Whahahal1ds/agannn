@@ -1,0 +1,189 @@
+body {
+    background-color: #f5f2eb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1b3022;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.form-container {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 650px;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid #d5ded7;
+}
+
+.form-header {
+    margin-bottom: 25px;
+    border-bottom: 2px solid #1b3022;
+    padding-bottom: 10px;
+}
+
+.form-header h2 {
+    margin: 0;
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #1b3022;
+}
+
+.form-header p {
+    margin: 5px 0 0 0;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #4a6b53;
+}
+
+.section-box {
+    background-color: #e8ede9;
+    padding: 15px 20px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.form-group label {
+    flex: 0 0 150px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #2c4a35;
+}
+
+.form-group .colon {
+    flex: 0 0 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.form-group .input-wrapper {
+    flex: 1;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #b8c7bc;
+    border-radius: 4px;
+    background-color: #ffffff;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+
+input:focus, 
+select:focus {
+    outline: none;
+    border-color: #4a6b53;
+}
+
+/* Custom Width Helpers */
+.input-phone {
+    width: 60% !important;
+}
+
+.input-city-zip {
+    width: 60% !important;
+}
+
+.input-tickets {
+    width: 80px !important;
+}
+
+/* Date Inputs */
+.date-inputs {
+    display: flex;
+    gap: 10px;
+}
+
+.date-inputs input {
+    text-align: center;
+}
+
+.input-day,
+.input-month {
+    width: 50px !important;
+}
+
+.input-year {
+    width: 70px !important;
+}
+
+/* Inline Fields Layout */
+.inline-fields {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.inline-fields .form-group {
+    margin-bottom: 0;
+    flex: 1;
+}
+
+/* Checkbox Groups */
+.checkbox-group {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-size: 13px;
+}
+
+.checkbox-group label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+/* Questions Section */
+.question-list {
+    font-size: 13px;
+    margin: 0 0 15px 0;
+    padding-left: 15px;
+    line-height: 1.6;
+}
+
+.question-list li {
+    margin-bottom: 8px;
+}
+
+.question-input-spacing {
+    margin-top: 8px;
+}
+
+/* Footer & Signature */
+.footer-signature {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-top: 15px;
+    font-size: 12px;
+    color: #4a6b53;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.signature-line {
+    border-bottom: 1px solid #1b3022;
+    width: 150px;
+    display: inline-block;
+}
+
+.signature-date {
+    width: 100px;
+}
